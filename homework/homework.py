@@ -267,7 +267,7 @@ def train_estimator(grid_search):
 
 
 # ---------- Entrenador específico ----------
-def train_scv_regression():
+def train_svc_regression():
     train_df, test_df = load_data()
     x_train, y_train, x_test, y_test = make_train_test_split(train_df, test_df)
 
